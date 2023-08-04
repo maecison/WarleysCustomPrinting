@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Warley's Custom Printing: Products/Services</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <script src="scripts/scripts.js"></script>
+</head>
+<body>
+    <header>
+        <div class="businessName">
+        </div><div class="logo"><img src="images/logo.png" alt="business logo">
+        </div>
+        <h1>Warley's Custom Printing</h1></div>
+        <nav>
+            <ul class="navi">
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./productsservices.html">Products/Services</a></li>
+                <li><a href="./samplegallery.html">Sample Gallery</a></li>
+            </ul>
+        </nav>
+        </div>
+    </header>
+    <main>
+        <h2>Products/Services</h2>
+        <article>
+            <div class="thirdBox">
+                <h3><u>T-Shirts</u></h3>
+                <p>
+                    Price: $14 each
+                </p>
+                <p>
+                    Your choice of the type of print used: Direct To Film <b>(MOST POPULAR)</b>, Sublimation or Vinyl
+                </p>
+                <h3><u>Mugs</u></h3>
+                <p>
+                    Price: $10 each
+                </p>
+                <p>
+                    Type of print used: Sublimation
+                </p>
+                <h3><u>Hats/Caps</u></h3>
+                <p>
+                    Price: $12 each
+                </p>
+                <p>
+                    Type of print used: Direct To Film
+                </p>
+                <h3><u>Masks</u></h3>
+                <p>
+                    Price: $5 each
+                </p>
+                <p>
+                    Your choice of the type of print used: Direct To Film <b>(MOST POPULAR)</b> or Vinyl
+                </p>
+                <h3><u>Stickers</u></h3>
+                <p>
+                    Price: $5 each letter-sized page
+                </p>
+                <p>
+                    Type of print used: Regular printer ink
+                </p>
+                <p>
+                    Amount of stickers per page varies per sticker size. It will be discussed during the order process.
+                </p>
+            </div>
+        </article>
+        <div class="calculator">
+            <h3><u>Calculator</u></h3>
+            <div class="inputInfo">
+                <label for="tshirtQty">T-Shirts:</label>
+                <input type="number" id="tshirtQty" min="0" value="0">
+            </div>
+            <div class="inputInfo">
+                <label for="mugQty">Mugs:</label>
+                <input type="number" id="mugQty" min="0" value="0">
+            </div>
+            <div class="inputInfo">
+                <label for="hatQty">Hats/Caps:</label>
+                <input type="number" id="hatQty" min="0" value="0">
+            </div>
+            <div class="inputInfo">
+                <label for="maskQty">Masks:</label>
+                <input type="number" id="maskQty" min="0" value="0">
+            </div>
+            <div class="inputInfo">
+                <label for="stickerQty">Stickers:</label>
+                <input type="number" id="stickerQty" min="0" value="0">
+            </div>
+            <button onclick="calculateTotal()">Calculate Total For Your Order</button>
+            <p id="totalPrice">Total Price: $0</p>
+        </div>
+    </main>
+    <footer>
+        <p>
+            All Rights Reserved Warley's Custom Printing 2023 © wc3m2009@yahoo.ca
+        </p>
+    </footer>
+</body>
+</html>
